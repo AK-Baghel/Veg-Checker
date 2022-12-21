@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 span{
+    margin: 1px 0;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 7px;
+    border: 1px solid red;
+}
+
+.work{
+    margin: 15px;
+}
+.work span{
+    background-color: red;
+    padding: 10px;
+    border-radius: 6px;
+}
+label{
+    color: white;
+    font-style: oblique;
+    font-weight: 700;
+}
+label,input{
+    margin: 20px 0px;
+    font-size: 18px;
+    text-align: left;
+}
+input{
+    width: 180px;
+    border-radius: 5px;
+    padding:2px 4px;
+    margin-left:4px ;
+    font-style: oblique;
+    font-size: 16px;
+    outline-color: white;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px 7px;
+    border-radius: 4px;
+    color: black;
+    background-color: rgb(200, 199, 199);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(42, 255, 42);
+    border-color: white;
+    color: black;
+
+}
+img{
+    max-height: 300px;
+    border-radius: 3px;
+    padding: 6px;
+    border: 5px solid rgb(122, 6, 255);
+    border-style:double;
+}
+table{
+    margin: 20px auto;
+}
+table,th,td{
+    border:1px solid rgb(29, 15, 111);
+    background-color: white;
+}
+th{
+    padding: 2px;
+    
+}
+#product-img{
+    margin: 10px;
+}
+#product-name {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+#indgredient-table{
+    margin-bottom: 50px;
+}
+.non-veg-item{
+    background-color: red;
+}
+.unknown-color{
+    background-color: yellow;
+}

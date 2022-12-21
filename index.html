@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Veg/Non-Veg Checker</title>
+</head>
+
+<body>
+    <h1 id="h1"><span>Check Your Food Is VEG or NON-VEG</span></h1>
+
+    <div class="work"><span>
+        <label for="barcode">Enter a UPC Barcode Number (12 Digits)</label>
+
+        <input type="number" id="barcode" placeholder="Type Here..."  max="12">
+
+        <button type="button" onclick="getFetch();">Click Here</button>
+    </span></div>
+
+    <img id="product-img" src="">
+    <div>
+        <h2 id="product-name"></h2>
+    </div>
+
+    <table id="indgredient-table">
+        <tr>
+            <th>Ingredients</th>
+            <th>Vegetarian?</th>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
